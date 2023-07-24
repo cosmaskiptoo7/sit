@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: aquamarine;
+            width: 90%;
+            height: 750px;
+            margin-left: 1%;
+            margin-top: 0%;
+            padding-left: 0%;
+            padding-top: 0px;
+            padding-bottom: 20%;
+            padding-right: 200px;
+            margin-right: 1%;
+        }
+
+        .menu {
+            text-size-adjust: larger;
+            margin-top: 0%;
+            padding-left: 1%;
+            padding-top: 0%;
+            word-spacing: 1px;
+            text-decoration: none;
+            list-style: none;
+            width: 100%;
+            overflow: auto;
+            background-color: rgb(9, 8, 8);
+            position: fixed;
+            top: 0;
+            left: 0;
+
+
+        }
+
+        li a:hover {
+            border-color: #f3f2f2;
+            color: rgb(215, 66, 66);
+            text-decoration: none;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+
+        }
+
+        li a {
+            display: block;
+            text-align: center;
+            padding: 12px 16px;
+            text-decoration: none;
+            color: #fdf9f9;
+        }
+
+        .active {
+            background-color: #2fd296;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <marquee behavior="slide" direction="left" >
+            <img src="img1.jpg" width="300px" height="300px" alt="Natural" amount="5px"/>
+            <img src="img2.jpg" width="300px" height="300px" alt="Natural" />
+            <img src="img3.jpg" width="300px" height="300px" alt="Natural" />
+            <img src="img4.jpg" width="300px" height="300px" alt="Natural" />
+            <img src="img5.jpg" width="300px" height="300px" alt="Natural" />
+            <img src="img1.jpg" width="300px" height="200px" alt="Natural"  />
+            
+
+          </marquee>
+
+        <ul class="menu">
+            <li><a class="active" href="/home.html">HOME</a></li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#DEPARTMENTS">DEPARTMENTS</a></li>
+            <li><a href="#EXPERIENCE">PAST EXPERIENCE</a></li>
+            <li><a href="#AWARDS">AWARDS</a></li>
+            <li><a href="jobs.html">JOB OPPORTUNITIES</a></li>
+    </div>
+
+</body>
+
+</html>
